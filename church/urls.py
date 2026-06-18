@@ -7,7 +7,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/auth/', include('accounts.urls')),
     path('api/members/', include('members.urls')),
-    path('api/attendance/', include('attendance.urls')),  # ← ADD THIS LINE
+    path('api/attendance/', include('attendance.urls')),
+    path('api/events/', include('events.urls')),      
+    path('api/prayers/', include('prayers.urls')),    
+    path('api/sermons/', include('sermons.urls')),
 ]
 
 if settings.DEBUG:

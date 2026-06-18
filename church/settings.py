@@ -30,6 +30,9 @@ INSTALLED_APPS = [
     'accounts',
     'members',
     'attendance',
+    'events',
+    'prayers',
+    'sermons',
 ]
 
 MIDDLEWARE = [
